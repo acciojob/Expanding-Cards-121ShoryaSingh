@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.container {
+	display: flex;
+	width: 200vw;
+	height: 60vh;
+}
+
+.image{
+	display:flex;
+	align-items: end;
+	padding: 20px;
+	width: 10%px;
+	background-size: cover;
+	background-position: center;
+	color:white;
+	font-size: 20px;
+	transition: width 0.5s ease-in-out;
+	cursor: pointer;
+}
+.image.active {
+	width: 50%;
+}
+
+.image.active .img-text {
+	display: block;
+}
+
+
